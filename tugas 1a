@@ -1,0 +1,74 @@
+package main
+
+import "fmt"
+
+type calonbintara struct{
+    nama string;
+    asal string;
+    tahunlulus int;
+}
+
+func main(){
+ var kumpulan []calonbintara
+
+    kumpulan = []calonbintara{
+     calonbintara{
+         nama: "Rezky",
+         asal : "Makassar",
+         tahunlulus: 2019,
+     },
+     calonbintara{
+         nama: "Ari",
+         asal : "Mamuju",
+         tahunlulus: 2018,
+     },
+     calonbintara{
+         nama: "Ramadhan",
+         asal : "Maros",
+         tahunlulus: 2019,
+     },
+     calonbintara{
+         nama: "Fadhil",
+         asal : "Bulukumba",
+         tahunlulus: 2018,
+     },
+     calonbintara{
+         nama: "Awal",
+         asal: "Takalar",
+         tahunlulus: 2017,
+     },
+     calonbintara{
+         nama: "Saldy",
+         asal : "Jeneponto",
+         tahunlulus: 2017,
+     },
+     calonbintara{
+         nama: "Wawan",
+         asal : "Bantaeng",
+         tahunlulus: 2017,
+     },
+     calonbintara{
+         nama: "Rizal",
+         asal : "Manado",
+         tahunlulus: 2019,
+     }, 
+     calonbintara{
+         nama: "Ikhsan",
+         asal : "Pinrang",
+         tahunlulus: 2018,
+     }, 
+ }
+
+ fmt.Println("-------Data Calon Bintara--------")
+ fmt.Println(kumpulan[0])
+ fmt.Println(kumpulan[1])
+ fmt.Println(kumpulan[2])
+ fmt.Println(kumpulan[3])
+ fmt.Println(kumpulan[4])
+ fmt.Println(kumpulan[5])
+ fmt.Println(kumpulan[6])
+ fmt.Println(kumpulan[7])
+ fmt.Println(kumpulan[8])
+ fmt.Println(kumpulan[9])
+
+}
